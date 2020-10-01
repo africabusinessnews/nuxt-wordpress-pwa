@@ -8,6 +8,28 @@
       <div class="post-content">
         <h3>{{post.title.rendered}}</h3>
         <div v-html="post.content.rendered"></div>
+
+        <div id="player-container"></div>
+
+<script src="brightcove-player-loader.js"></script>
+<script>
+  brightcovePlayerLoader({
+    refNode: '#player-container',
+    accountId: '1571595826001',
+    playerId: 'c0AOssA7',
+
+    embedOptions: {
+    responsive: {
+      aspectRatio: '16:9',
+      maxWidth: '0px'
+    }
+  },
+
+    
+   
+  });
+</script>
+
       </div>
       <div class="sidebar">
         <recent-posts v-if="posts" :posts="posts.data"></recent-posts>
@@ -74,8 +96,7 @@ export default {
 /* layout */
 
 .header {
-  background-color:#1e5799;
-  background-image: linear-gradient(to right, #34495F, #3A5674);
+  background-color:#007cba;
   text-align: center;
 }
 

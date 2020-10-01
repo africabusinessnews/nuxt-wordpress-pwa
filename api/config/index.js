@@ -1,3 +1,3 @@
 export default {
-  baseUrl: "https://headless.cnbcafrica.com/wp-json/wp/v2/"
+  baseUrl: "https://www.cnbcafrica.com/wp-json/wp/v2/"
 };

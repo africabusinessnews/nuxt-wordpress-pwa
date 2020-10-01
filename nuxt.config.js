@@ -36,5 +36,11 @@ module.exports = {
     ** Run ESLINT on save
     */
     
+  },
+
+  generate: {
+    fallback: true
   }
+
+  
 };
