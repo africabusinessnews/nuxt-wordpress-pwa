@@ -5,6 +5,7 @@
   "author": "Sean Hise",
   "private": true,
   "dependencies": {
+    "@brightcove/player-loader": "^1.7.1",
     "@nuxtjs/pwa": "latest",
     "axios": "^0.20.0",
     "bulma": "^0.4.0",
